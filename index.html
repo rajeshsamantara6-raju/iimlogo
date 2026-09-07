@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IIM Sambalpur Intranet</title>
+
+    <style>
+
+        /* ==============================
+           RESET
+        ============================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #eef2f7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        /* ==============================
+           MAIN HEADER
+        ============================== */
+
+        .intranet-header {
+
+            width: 96%;
+
+            min-height: 130px;
+
+            margin: 20px auto;
+
+            padding: 15px 35px;
+
+            display: flex;
+
+            align-items: center;
+
+            background: linear-gradient(
+                90deg,
+                #62a7ed 0%,
+                #8dbcf0 45%,
+                #f5f8fc 100%
+            );
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 4px 15px rgba(0, 0, 0, 0.08);
+
+        }
+
+
+        /* ==============================
+           HEADER CONTENT
+        ============================== */
+
+        .header-content {
+
+            width: 100%;
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+
+        /* ==============================
+           LOGO
+        ============================== */
+
+        .logo-box {
+
+            width: 130px;
+
+            min-width: 130px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+        }
+
+        .logo-box img {
+
+            width: 105px;
+
+            height: auto;
+
+            display: block;
+
+            object-fit: contain;
+
+        }
+
+
+        /* ==============================
+           TITLE
+        ============================== */
+
+        .header-title {
+
+            margin-left: 25px;
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+        .header-title h1 {
+
+            margin: 0;
+
+            color: #062d67;
+
+            font-family:
+                Georgia,
+                "Times New Roman",
+                serif;
+
+            font-size: 32px;
+
+            font-weight: 700;
+
+            line-height: 1.2;
+
+            letter-spacing: 0.3px;
+
+        }
+
+
+        /* ==============================
+           TABLET
+        ============================== */
+
+        @media (max-width: 768px) {
+
+            .intranet-header {
+
+                width: 94%;
+
+                min-height: 110px;
+
+                padding: 15px 20px;
+
+            }
+
+            .logo-box {
+
+                width: 100px;
+
+                min-width: 100px;
+
+            }
+
+            .logo-box img {
+
+                width: 80px;
+
+            }
+
+            .header-title {
+
+                margin-left: 15px;
+
+            }
+
+            .header-title h1 {
+
+                font-size: 25px;
+
+            }
+
+        }
+
+
+        /* ==============================
+           MOBILE
+        ============================== */
+
+        @media (max-width: 480px) {
+
+            .intranet-header {
+
+                width: 94%;
+
+                min-height: 90px;
+
+                padding: 10px 15px;
+
+                border-radius: 18px;
+
+            }
+
+            .logo-box {
+
+                width: 70px;
+
+                min-width: 70px;
+
+            }
+
+            .logo-box img {
+
+                width: 60px;
+
+            }
+
+            .header-title {
+
+                margin-left: 10px;
+
+            }
+
+            .header-title h1 {
+
+                font-size: 18px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================
+         IIM SAMBALPUR INTRANET HEADER
+    ====================================== -->
+
+    <header class="intranet-header">
+
+        <div class="header-content">
+
+
+            <!-- IIM SAMBALPUR LOGO -->
+
+            <div class="logo-box">
+
+                <img
+                    src="iim-sambalpur-logo.png"
+                    alt="IIM Sambalpur Logo"
+                >
+
+            </div>
+
+
+            <!-- WELCOME TEXT -->
+
+            <div class="header-title">
+
+                <h1>
+                    Welcome to IIM Sambalpur Intranet
+                </h1>
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+
+</body>
+
+</html>
